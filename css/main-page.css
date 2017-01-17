@@ -1,0 +1,88 @@
+html, body, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Page Styles */
+
+body {
+    background-color: #000033;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {}
+
+.heading {
+    background-color: hsla(0, 0%, 0%, 0.4);
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.spotifyImg {
+    margin-top: 5px;
+}
+
+.sidebar-nav {
+border: 3px solid rgb(75,75,75);
+box-shadow: 0 0 15px 5px rgba(44,82,100,.75);
+max-width: 160px;
+margin-top: 20px;
+margin-left:0;
+margin-right: auto;
+padding: 15px;
+position: absolute;
+float: none;
+}
+
+.navbar {
+    margin-left: 180px;
+    margin-top: 0px;
+    height: auto;
+    width: auto;;
+    position: relative;
+}
+
+.navbar {
+	margin-bottom: 20px;
+}
+
+.navbar ul {
+	display: inline-block;
+	margin-right: 15px;
+
+}
